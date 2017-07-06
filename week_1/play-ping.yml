@@ -1,0 +1,5 @@
+- name: prueba PING
+  hosts: localhost:cisco
+  tasks:
+    - ping:
+

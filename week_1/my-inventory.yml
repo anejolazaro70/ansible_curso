@@ -1,0 +1,10 @@
+---
+
+[local]
+localhost
+
+- name: prueba ping
+  hosts: local
+  tasks:
+     - ping:
+
